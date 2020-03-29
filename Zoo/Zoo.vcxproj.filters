@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Animals">
+      <UniqueIdentifier>{5434148c-6e6c-48c8-8b71-ada569e26343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animals\Mammals">
+      <UniqueIdentifier>{4e51a03e-af48-4e9b-9aa8-3b15a6acb3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animals\Amphibians">
+      <UniqueIdentifier>{9fedadf4-ba5b-4221-bf55-1ba90086707a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animals\Fishes">
+      <UniqueIdentifier>{1f376974-b1bf-41ae-941f-5c30321f4c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animals\Reptiles">
+      <UniqueIdentifier>{a1a487a3-53d1-445f-972d-cd5c2514c87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animals\Insects">
+      <UniqueIdentifier>{d7028602-d706-4bb2-82e8-018fad08dacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals">
+      <UniqueIdentifier>{5c265936-f272-48bf-835c-4c34d55ec299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals\Mammals">
+      <UniqueIdentifier>{6c58618f-65f2-4644-a3cc-5694fcd56a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals\Amphibians">
+      <UniqueIdentifier>{b79f241f-fe32-4ac4-bd51-96295002ff6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals\Fishes">
+      <UniqueIdentifier>{751d5317-9c90-47d9-8013-28a38880997a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals\Insects">
+      <UniqueIdentifier>{989c9ffd-fd76-47e2-a344-7fee8481663a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animals\Reptiles">
+      <UniqueIdentifier>{079a2602-6f6a-4761-a13e-286884cc05c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Zoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mammal.cpp">
+      <Filter>Source Files\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Insect.cpp">
+      <Filter>Source Files\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Source Files\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Reptile.cpp">
+      <Filter>Source Files\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Amphibian.cpp">
+      <Filter>Source Files\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files\Animals\Mammals</Filter>
+    </ClCompile>
+    <ClCompile Include="Dolphin.cpp">
+      <Filter>Source Files\Animals\Mammals</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Source Files\Animals\Mammals</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>Source Files\Animals\Mammals</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>Source Files\Animals\Amphibians</Filter>
+    </ClCompile>
+    <ClCompile Include="Salamander.cpp">
+      <Filter>Source Files\Animals\Amphibians</Filter>
+    </ClCompile>
+    <ClCompile Include="Shark.cpp">
+      <Filter>Source Files\Animals\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordfish.cpp">
+      <Filter>Source Files\Animals\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="Butterfly.cpp">
+      <Filter>Source Files\Animals\Insects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mantis.cpp">
+      <Filter>Source Files\Animals\Insects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lizard.cpp">
+      <Filter>Source Files\Animals\Reptiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Animals\Reptiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Amphibian.h">
+      <Filter>Header Files\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Header Files\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Insect.h">
+      <Filter>Header Files\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Mammal.h">
+      <Filter>Header Files\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Reptile.h">
+      <Filter>Header Files\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files\Animals\Mammals</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>Header Files\Animals\Mammals</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Header Files\Animals\Mammals</Filter>
+    </ClInclude>
+    <ClInclude Include="Dolphin.h">
+      <Filter>Header Files\Animals\Mammals</Filter>
+    </ClInclude>
+    <ClInclude Include="Shark.h">
+      <Filter>Header Files\Animals\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordfish.h">
+      <Filter>Header Files\Animals\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="Butterfly.h">
+      <Filter>Header Files\Animals\Insects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mantis.h">
+      <Filter>Header Files\Animals\Insects</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>Header Files\Animals\Amphibians</Filter>
+    </ClInclude>
+    <ClInclude Include="Salamander.h">
+      <Filter>Header Files\Animals\Amphibians</Filter>
+    </ClInclude>
+    <ClInclude Include="Lizard.h">
+      <Filter>Header Files\Animals\Reptiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Header Files\Animals\Reptiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
