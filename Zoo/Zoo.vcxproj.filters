@@ -164,5 +164,8 @@
     <ClInclude Include="Snake.h">
       <Filter>Header Files\Animals\Reptiles</Filter>
     </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
